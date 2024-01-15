@@ -38,6 +38,7 @@ EXPOSE 8092
 
 ENV UID=1000
 ENV GID=1000
+ENV TZ Europe/Amsterdam
 
 RUN groupadd -f hyperion
 RUN useradd -r -s /bin/bash -g hyperion hyperion
